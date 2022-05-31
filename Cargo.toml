@@ -8,3 +8,7 @@ edition = "2018"
 [dependencies]
 libc = "0.2"
 page_size = "0.4.2"
+object = "0.28"
+xmas-elf = "0.8"
+elfloader = { path = "../rust-elfloader/"}
+byteorder = "1.4.3"
